@@ -29,6 +29,7 @@ label{
    font-weight: 500;
 }
 input{
+   width: 100%;
    padding: 20px 15px;
    border: none;
    outline: none;
