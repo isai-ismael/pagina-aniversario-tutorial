@@ -1,0 +1,64 @@
+body {
+  background: #833ab4;
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  text-align: center;
+  text-shadow: 2px 2px 2px rgb(255, 255, 255);
+  font-size: 50px;
+  font-family: "Love Ya Like A Sister", cursive;
+}
+form {
+  margin: auto;
+  width: 80%;
+  max-width: 600px;
+  background: rgba(0, 0, 0, 0.205);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  border-radius: 10px;
+}
+label{
+   font-size: 20px;
+   text-align: center;
+   color: rgba(255, 255, 255, 0.89);
+   display: block;
+   font-weight: 500;
+}
+input{
+   padding: 20px 15px;
+   border: none;
+   outline: none;
+   font-size: 16px;
+}
+button{
+   padding: 15px;
+   outline: none;
+   cursor: pointer;
+   border: none;
+   background: rgb(221, 39, 197);
+   color: white;
+   font-size: 16px;
+   font-weight: bold;
+}
+button:hover{
+   background: rgb(196, 28, 173);
+}
+
+
+/* corazon roto */
+.corazon-roto{   
+   text-align: center;
+}
+.corazon-roto img{
+   max-width: 100%;
+}
+.volver{
+   display: block;
+   color: white;
+   font-style: italic;
+   padding: 10px;
+}
